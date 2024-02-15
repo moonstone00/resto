@@ -13,6 +13,9 @@ export default {
         'primaryColor': '#006563',
         'secondaryColor': '#CEAB7A'
       },
+      screens: {
+        'tablet': '568px'
+      }
     },
   },
   plugins: [],

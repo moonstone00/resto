@@ -1,0 +1,16 @@
+jadi sebelum di klik flex grow nya 2 setelah di klik jadi 1
+
+Mungkin cara nya agar berhasil panah itu  disatukan dengan header di file NavbarLogin lalu nanti akan mengirimkan props ke sidebar ketika arrow diklik 
+maka sidebar akan terbuka.
+
+jadi 
+ketika sidebar dibukan kan bernilai true nah nanti sidebar akan mengirimkan nilai false ke cardUser
+
+pada meja hanya terdapat available dan booked, tapi nanti gwa bakal buat tabel tentang keterangan si pemesan
+dia namanya  siapa dan  pilih meja yang mana
+
+nanti meja yang ada pada dashbord bisa di klik dan akan diarahkan pada inputan untuk memasuki identitas dan berapa orang
+lalu nanti itu akan dikirimkan ke halaman meja dan disana terdapat tabel
+
+nanti pada lg padding nya kecilkan
+
