@@ -37,7 +37,6 @@ export default function TableReservation() {
               <button type='submit' className='w-full bg-primaryColor p-2 rounded-md text-white hover:bg-[#0c7674] hover:duration-150 hover:ease-in duration-100 ease-in'>Add</button>
             </div>
         </form>
-        <input type="file" />
     </div>
   )
 }

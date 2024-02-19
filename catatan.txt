@@ -14,3 +14,8 @@ lalu nanti itu akan dikirimkan ke halaman meja dan disana terdapat tabel
 
 nanti pada lg padding nya kecilkan
 
+Table
+N0, Nama, Meja, Jumlah, Tanggal, action
+
+di table terdapat action belum selesai, sudah selesai jika sudah belum selesai diklik maka meja yang ada pada dashboard akan berubah menjadi hijau.
+
