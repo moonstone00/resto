@@ -1,13 +1,21 @@
+import { useNavigate } from 'react-router-dom'
 import logo from '../../assets/logo-meat.png'
 import React from 'react'
 
 export default function TableReservation() {
+
+  const navigate = useNavigate()
+
+  const handleTableReservation = () => {
+    navigate('/dashboard')
+  }
+
   return (
     <div className='w-full min-h-screen flex flex-col items-center justify-center gap-12 bg-[#f4f6f9]' >
         <div className='flex items-center justify-center w-24 h-24 bg-white rounded-full shadow-md'>
           <img className='w-16 h-16' src={logo} alt="Image Logo" />
         </div>
-        <form action="" className='w-[330px] border border-t-2 border-t-primaryColor bg-white shadow-md rounded-lg' >
+        <form onSubmit={handleTableReservation} className='w-[330px] border border-t-2 border-t-primaryColor bg-white shadow-md rounded-lg' >
             <div className='py-5 px-6 text-primaryColor text-lg'>
               <p className='font-medium'>Table Reservation</p>
             </div>
@@ -29,6 +37,7 @@ export default function TableReservation() {
               <button type='submit' className='w-full bg-primaryColor p-2 rounded-md text-white hover:bg-[#0c7674] hover:duration-150 hover:ease-in duration-100 ease-in'>Add</button>
             </div>
         </form>
+        <input type="file" />
     </div>
   )
 }

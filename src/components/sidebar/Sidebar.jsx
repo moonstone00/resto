@@ -1,4 +1,4 @@
-import {GridViewOutlined, PersonOutlineOutlined, DateRangeOutlined, ShoppingBagOutlined, TableRestaurantOutlined, KeyboardArrowDownOutlined} from '@mui/icons-material';
+import {GridViewOutlined, PersonOutlineOutlined, DateRangeOutlined, ShoppingBagOutlined, TableRestaurantOutlined, Key, PowerSettingsNew} from '@mui/icons-material';
 import React, { useState } from 'react'
 
 export default function Sidebar({isSidebar}) {
@@ -24,7 +24,7 @@ export default function Sidebar({isSidebar}) {
                                     </li>
                                     <li className="px-12 py-4 flex items-center gap-2">
                                         <PersonOutlineOutlined className='cursor-pointer'/>
-                                        <a className='duration-150 ease-in' href="">Profile</a>
+                                        <a className='duration-150 ease-in' href="">Biodata/Foto</a>
                                     </li>
                                     <li className="px-12 py-4 flex items-center gap-2">
                                         <DateRangeOutlined className='cursor-pointer'/>
@@ -32,11 +32,22 @@ export default function Sidebar({isSidebar}) {
                                     </li>
                                     <li className="px-12 py-4 flex items-center gap-2">
                                         <ShoppingBagOutlined className='cursor-pointer'/>
-                                        <a className='duration-150 ease-in' href="">Order</a>
+                                        <a className='duration-150 ease-in' href="">Produk</a>
                                     </li>
                                     <li className="px-12 py-4 flex items-center gap-2">
                                         <TableRestaurantOutlined className='cursor-pointer'/>
                                         <a className='duration-150 ease-in' href="">Meja</a>
+                                    </li>
+                                    <li className="px-12 py-4 flex items-center gap-2">
+                                        <Key className='cursor-pointer'/>
+                                        <div className='flex gap-1'>
+                                            <a className='duration-300 ease-in' href="">Ganti</a>
+                                            <a className='duration-300 ease-in' href="">Password</a>
+                                        </div>
+                                    </li>
+                                    <li className="px-12 py-4 flex items-center gap-2">
+                                        <PowerSettingsNew className='cursor-pointer'/>
+                                        <a className='duration-150 ease-in' href="">Logout</a>
                                     </li>
                                 </ul>
                             </div>
@@ -66,6 +77,12 @@ export default function Sidebar({isSidebar}) {
                                     </li>
                                     <li className="py-4 flex items-center gap-2 duration-150 ease-in">
                                         <TableRestaurantOutlined className='cursor-pointer'/>
+                                    </li>
+                                    <li className="py-4 flex items-center gap-2 duration-150 ease-in">
+                                        <Key className='cursor-pointer'/>
+                                    </li>
+                                    <li className="py-4 flex items-center gap-2 duration-150 ease-in">
+                                        <PowerSettingsNew className='cursor-pointer'/>
                                     </li>
                                 </ul>
                             </div>

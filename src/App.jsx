@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Login from "./features/login/Login"
 import Dashboard from "./features/dashboard/Dashboard"
 import TableReservation from "./features/tableReservation/TableReservation"
+import ChangePassword from "./features/changePassword/ChangePassword"
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/table-reservation" element={<TableReservation />} />
+        <Route path="/ganti-password" element={<ChangePassword />} />
       </Routes>
     </Router>
   )
